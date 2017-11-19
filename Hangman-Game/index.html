@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nick's Hangman Game</title>
+
+  <link href="./assests/css/style.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="./assests/javascript/game.js">
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="whole">
+  
+  <div class="heading">
+    <img src="./assests/images/nba.png">
+    <img src="./assests/images/hangman_title_lg.gif"> 
+  </div>
+
+
+  <div class="container1">
+    <div id="videos"> <img id="img" src="./assests/images/yearbook.png"></div>
+  </div>  
+    
+  <div class="container2">
+    <div id="stuff">
+      <p>Press Any Key to Get Started</p>
+
+      <p id="wins">wins</p>
+
+     
+
+      <div id="word">
+        <h4>Your word is</h4>
+        <p><strong id="targetword" class="correctLetter"></strong></p>
+      </div>
+      
+      <div>
+        <p id="lives"></p>
+      </div>
+
+      <div id="guesses">
+        <h4>You have guessed</h4>
+        <p><strong id="previousguesses"><em>nothing yet...guess a letter</em></strong> </p>
+      </div>
+    </div>
+  </div>
+    
+  <div class="container">
+    <button id="reset">Play again</button>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
